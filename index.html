@@ -2,66 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    <meta name="description" content="Página personal de Rodrigo Andre Fuentes Romero, estudiante de Ciencia de la Computación en la Universidad Católica San Pablo. Descubre más sobre mí y mis intereses.">
-    
-
-    <meta name="keywords" content="Rodrigo Andre Fuentes Romero, Ciencia de la Computación, Estudiante, Universidad Católica San Pablo">
-    <meta name="keywords" content="rodrigo andre fuentes romero, ciencia de la computación, estudiante, universidad católica san pablo">
-    <meta name="keywords" content="fuentesromero">
-    <meta name="keywords" content="rodrigoandre">
-
-    <title>Rodrigo Andre Fuentes Romero - Mi Página Personal</title>
-    
-
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Pagina Web Basica</title>
 </head>
 <body>
-    <header class="Content Header">
-
-        <h1>Rodrigo Andre Fuentes Romero</h1>
-        <h2 class="Title">Mi primera página web</h2>
+    <div class="head">
+        <div class="logo">
+            <a href="#">RF</a>
+        </div>
+        <nav class="navbar">
+            <a href="#">Sobre mi</a>
+            <a href="#">Cursos realizados</a>
+            <a href="#">Amigos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div> 
+    <header class="content header"> <!-- Corregida la clase "Content Header" -->
+        <h2 class="title">Mi página web</h2>
         <p>
-            Bienvenido a lo que sería mi primera página web utilizando HTML.
+
         </p>
+
     </header>
-    <section class="Content Sau">
-        <h2 class="Title">Sobre mí</h2>
-        <p>Mi nombre es Rodrigo Andre Fuentes Romero, soy un estudiante de segundo semestre de la carrera de Ciencia de la Computación en la Universidad Católica San Pablo. Actualmente tengo 17 años.</p>
+    <section class="content sau"> <!-- Corregida la clase "Sau" -->
+        <h2 class="title">Sobre mí</h2>
+        <p>Mi nombre es Rodrigo Andre Fuentes Romero, 
+            soy un estudiante de segundo semestre de la
+            carrera de Ciencia de la Computación en la 
+            Universidad Católica San Pablo. Actualmente
+            tengo 17 años.
+        </p>
         <div class="box-container">
             <div class="box">
-                <i class="fab fa-angular"></i>
+                <i class="fas fa-book"></i>
                 <h3>Estudios</h3>
-                <p>J.C.Maxwell (Primaria-Secundaria)</p>
+                <p>
+                    Universidad Católica San Pablo
+                    Ciencias de la Computación
+                </p>
+                
             </div>
             <div class="box">
-                <i class="fab fa-apple"></i>
+                <i class="fas fa-code"></i>
                 <h3>Hobbies</h3>
-                <p>Me gustan los videojuegos</p>
-                <p>Leer libros</p>
+                <p> Python (Intermedio),
+                    C++
+                </p>
             </div>
         </div>
     </section>
-    <section class="Content about">
-        <h2>Lorem</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat officia ipsa debitis vero, molestias explicabo pariatur voluptates vel autem rem earum consequuntur doloribus animi aperiam? Magnam neque sint est in!</p>
-        <a href="#" class="btn">Link</a>
+    <section class="content about">
+        <h2 class="title">Cursos realizados</h2>
+        <p>sdds
+        </p>
+        <a href="#" class="btn">cursos</a>
     </section>
     <section class="content price">
         <article class="contain">
-            <h2 class="title">Lorem</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, perspiciatis! Numquam, veritatis. Autem corporis reiciendis, id necessitatibus nesciunt ipsum delectus illum eos quidem incidunt sed ab rem eius fuga magni.</p>
-            <a href="#" class="btn">Link</a>
+            <h2 class="title">Amigos</h2>
+            <p>
+            </p>
+            <a href="#" class="btn">ema</a>
         </article>
     </section>
     <section class="content contact">
         <h2 class="title">Contacto</h2>
         <p>Correo: rodrigo72.fo@gmail.com</p>
-        <figure class="map">
-            <img src="img/d.png" height="220px" width="30%" alt="d">
-        </figure>
+        <div class="map"> <!-- Envuelto en un div para la etiqueta figure -->
+            <img src="img/d.png" height="100px" width="100%" alt="Mapa">
+        </div>
+        <a href="https://www.youtube.com/watch?v=2AtwP3nJRFI" class="btn">tuturu</a>
     </section>
 </body>
 </html>
